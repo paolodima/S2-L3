@@ -4,7 +4,7 @@ int main()
 {
     int primo_numero ;
     int secondo_numero ;
-    int media;
+    float media;
     
     printf("\ninserisci il primo numero ");
     scanf("%d", &primo_numero);
@@ -14,7 +14,7 @@ int main()
     
     media = (primo_numero + secondo_numero)/2 ;
     
-    printf("la media è uguale a : %d\n" , media);
+    printf("la media è uguale a : %2f\n" , media);
     
     
     
