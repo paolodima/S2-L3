@@ -14,7 +14,7 @@ int main()
     
     media = (primo_numero + secondo_numero)/2 ;
     
-    printf("la media è uguale a : %2f\n" , media);
+    printf("la media è uguale a : %.2f\n" , media);
     
     
     
